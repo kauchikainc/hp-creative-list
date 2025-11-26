@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HP制作実績一覧
 
-## Getting Started
+HP制作受託事業の制作実績を一覧表示するWebアプリケーション。
 
-First, run the development server:
+## 技術スタック
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript 5
+- Tailwind CSS 4
+- Jest + React Testing Library
+
+## セットアップ
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000 で確認できます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## コマンド
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| コマンド | 説明 |
+|---------|------|
+| `npm run dev` | 開発サーバー起動 |
+| `npm run build` | 本番ビルド |
+| `npm start` | 本番サーバー起動 |
+| `npm test` | 全テスト実行 |
+| `npm test [name]` | 特定テスト実行 |
+| `npm run lint` | ESLint実行 |
 
-## Learn More
+## ディレクトリ構成
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── layout.tsx      # ルートレイアウト
+│   └── page.tsx        # トップページ（実績一覧）
+├── components/
+│   ├── PortfolioCard.tsx    # 個別実績カード
+│   ├── PortfolioList.tsx    # 実績グリッド表示
+│   └── PortfolioSearch.tsx  # 検索機能付き一覧
+├── data/
+│   └── portfolio.json  # 実績データ
+└── types/
+    └── portfolio.ts    # 型定義
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+__tests__/              # テストファイル
+public/images/portfolio/ # サムネイル画像
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 実績データの管理
 
-## Deploy on Vercel
+`src/data/portfolio.json` を編集して実績を追加・変更します。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```json
+{
+  "id": "company-id",
+  "companyName": "企業名/屋号名",
+  "category": "業種",
+  "url": "https://example.com",
+  "thumbnail": "/images/portfolio/company-id.jpg"
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| フィールド | 必須 | 説明 |
+|-----------|------|------|
+| `id` | Yes | 一意識別子（URLから生成推奨） |
+| `companyName` | Yes | 企業名/屋号名 |
+| `category` | Yes | 業種カテゴリ |
+| `url` | Yes | HPのURL |
+| `thumbnail` | No | サムネイル画像パス |
+
+### プレビュー表示について
+
+- `thumbnail` がある場合: 画像を表示
+- `thumbnail` がない場合: iframeでサイトをプレビュー表示
+
+多くのサイトは `X-Frame-Options` でiframe埋め込みを禁止しているため、表示が崩れる場合はスクリーンショットを `public/images/portfolio/` に保存し、`thumbnail` を指定してください。
+
+## デプロイ
+
+GitHubへpushすると、Netlifyで自動デプロイされます。
