@@ -1,0 +1,98 @@
+[
+  {
+    "id": "illumina-vanp",
+    "companyName": "秘密喫茶 illumina x vanp",
+    "category": "バー",
+    "url": "https://illumina-vanp.vercel.app/"
+  },
+  {
+    "id": "dagashiya-sasou",
+    "companyName": "駄菓子屋さそう",
+    "category": "駄菓子屋さん",
+    "url": "https://abashiri-gangushiki-sasou.vercel.app/"
+  },
+  {
+    "id": "hope-kishimaru",
+    "companyName": "HOPE遊漁船 希志丸",
+    "category": "遊漁船",
+    "url": "https://hope-kishimaru.vercel.app/"
+  },
+  {
+    "id": "link",
+    "companyName": "株式会社Link",
+    "category": "中古車販売、保険、テレアポ",
+    "url": "https://link-emotion-sapporo.vercel.app/"
+  },
+  {
+    "id": "remix",
+    "companyName": "株式会社Remix",
+    "category": "足場建築",
+    "url": "https://remix-sapporo.vercel.app/"
+  },
+  {
+    "id": "yahata-jyuki",
+    "companyName": "八幡重機",
+    "category": "土木建築",
+    "url": "https://yahata-jyuki.vercel.app/"
+  },
+  {
+    "id": "north-innovation",
+    "companyName": "株式会社North Innovation",
+    "category": "狩猟、鹿肉販売、革財布",
+    "url": "https://north-innovation.vercel.app/"
+  },
+  {
+    "id": "menya-ranjatai",
+    "companyName": "麺屋 蘭奢待",
+    "category": "ラーメン屋さん",
+    "url": "https://ranjatai-bihoro.vercel.app/"
+  },
+  {
+    "id": "yamaume",
+    "companyName": "有限会社ヤマウメ",
+    "category": "梱包資材",
+    "url": "https://yamaume-konpo.vercel.app/"
+  },
+  {
+    "id": "gather",
+    "companyName": "Gather",
+    "category": "ホットドッグランチ",
+    "url": "https://gather-diner.vercel.app/"
+  },
+  {
+    "id": "torabata-spice",
+    "companyName": "トラバタスパイス",
+    "category": "カレーのキッチンカー",
+    "url": "https://torabata-spice.vercel.app/"
+  },
+  {
+    "id": "total-assist",
+    "companyName": "トータルアシスト",
+    "category": "解体やリフォーム、遺品整理、除雪排雪など",
+    "url": "https://total-assist-kushiro.vercel.app/"
+  },
+  {
+    "id": "hundred",
+    "companyName": "株式会社ハンドレッド",
+    "category": "ドッグサロン、ドッグラン、ドーベルマンカフェ",
+    "url": "https://hundred-salon.vercel.app/"
+  },
+  {
+    "id": "curry-bar-orange",
+    "companyName": "カレーバーオレンジ",
+    "category": "カレーバー",
+    "url": "https://curry-bar-orange.vercel.app/"
+  },
+  {
+    "id": "gouken-kogyo",
+    "companyName": "剛健工業",
+    "category": "足場",
+    "url": "https://gouken-kogyo.vercel.app/"
+  },
+  {
+    "id": "lounge-kanou",
+    "companyName": "Lounge Kanou",
+    "category": "スナック",
+    "url": "https://lounge-kanou.vercel.app/"
+  }
+]
