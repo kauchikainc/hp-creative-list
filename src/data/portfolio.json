@@ -1,5 +1,11 @@
 [
   {
+    "id": "sobagen",
+    "companyName": "そば源",
+    "category": "蕎麦屋さん",
+    "url": "https://sobagen.vercel.app/"
+  },
+  {
     "id": "illumina-vanp",
     "companyName": "秘密喫茶 illumina x vanp",
     "category": "バー",
