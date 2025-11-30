@@ -112,5 +112,11 @@
     "companyName": "Lounge Kanou",
     "category": "スナック",
     "url": "https://lounge-kanou.vercel.app/"
+  },
+  {
+    "id": "miyabi-kobo",
+    "companyName": "雅工房",
+    "category": "塗装",
+    "url": "https://miyabi-kobo.vercel.app/"
   }
 ]
