@@ -118,5 +118,11 @@
     "companyName": "雅工房",
     "category": "塗装",
     "url": "https://miyabi-kobo.vercel.app/"
+  },
+  {
+    "id": "be-side",
+    "companyName": "PUB Be Side",
+    "category": "メンズパブ",
+    "url": "https://be-side-ebetsu.vercel.app/"
   }
 ]
