@@ -1,5 +1,11 @@
 [
   {
+    "id": "shakotan-shinsen",
+    "companyName": "積丹しんせん",
+    "category": "和食",
+    "url": "https://shakotan-shinsen.vercel.app/"
+  },
+  {
     "id": "sobagen",
     "companyName": "そば源",
     "category": "蕎麦屋さん",
