@@ -1,17 +1,5 @@
 [
   {
-    "id": "shakotan-shinsen",
-    "companyName": "積丹しんせん",
-    "category": "和食",
-    "url": "https://shakotan-shinsen.vercel.app/"
-  },
-  {
-    "id": "sobagen",
-    "companyName": "そば源",
-    "category": "蕎麦屋さん",
-    "url": "https://sobagen.vercel.app/"
-  },
-  {
     "id": "illumina-vanp",
     "companyName": "秘密喫茶 illumina x vanp",
     "category": "バー",
@@ -22,12 +10,6 @@
     "companyName": "駄菓子屋さそう",
     "category": "駄菓子屋さん",
     "url": "https://abashiri-gangushiki-sasou.vercel.app/"
-  },
-  {
-    "id": "ishikari-minori-farm",
-    "companyName": "石狩みのりファーム",
-    "category": "ミニトマト農家",
-    "url": "https://ishikari-minori-farm.vercel.app/"
   },
   {
     "id": "mugen-farm-tsukuda",
@@ -66,12 +48,6 @@
     "url": "https://north-innovation.vercel.app/"
   },
   {
-    "id": "menya-ranjatai",
-    "companyName": "麺屋 蘭奢待",
-    "category": "ラーメン屋さん",
-    "url": "https://ranjatai-bihoro.vercel.app/"
-  },
-  {
     "id": "yamaume",
     "companyName": "有限会社ヤマウメ",
     "category": "梱包資材",
@@ -102,18 +78,6 @@
     "url": "https://hundred-salon.vercel.app/"
   },
   {
-    "id": "curry-bar-orange",
-    "companyName": "カレーバーオレンジ",
-    "category": "カレーバー",
-    "url": "https://curry-bar-orange.vercel.app/"
-  },
-  {
-    "id": "gouken-kogyo",
-    "companyName": "剛健工業",
-    "category": "足場",
-    "url": "https://gouken-kogyo.vercel.app/"
-  },
-  {
     "id": "lounge-kanou",
     "companyName": "Lounge Kanou",
     "category": "スナック",
@@ -126,9 +90,9 @@
     "url": "https://miyabi-kobo.vercel.app/"
   },
   {
-    "id": "be-side",
-    "companyName": "PUB Be Side",
-    "category": "メンズパブ",
-    "url": "https://be-side-ebetsu.vercel.app/"
+    "id": "blu-notte",
+    "companyName": "BLU NOTTE",
+    "category": "ラウンジ",
+    "url": "https://blu-notte-est-2025.vercel.app/"
   }
 ]
