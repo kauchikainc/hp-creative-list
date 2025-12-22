@@ -94,5 +94,53 @@
     "companyName": "BLU NOTTE",
     "category": "ラウンジ",
     "url": "https://blu-notte-est-2025.vercel.app/"
+  },
+  {
+    "id": "surubeya",
+    "companyName": "するべや",
+    "category": "シルクスクリーン印刷",
+    "url": "https://silk-screen-surubeya.vercel.app/"
+  },
+  {
+    "id": "seiryu-denki",
+    "companyName": "正龍電気合同会社",
+    "category": "電気工事",
+    "url": "https://seiryu-denki.vercel.app/"
+  },
+  {
+    "id": "jasmint",
+    "companyName": "ジャスミント",
+    "category": "ネイル・フェイシャルサロン",
+    "url": "https://salon-jasmint.vercel.app/"
+  },
+  {
+    "id": "plus-arq",
+    "companyName": "PLUS ARQ",
+    "category": "大工工事",
+    "url": "https://plus-arq.vercel.app/"
+  },
+  {
+    "id": "taisyu-sakaba-task",
+    "companyName": "大衆酒場タスク",
+    "category": "居酒屋",
+    "url": "https://taisyu-sakaba-task.vercel.app/"
+  },
+  {
+    "id": "kawayu-onsen-unite",
+    "companyName": "川湯温泉ユナイト",
+    "category": "スープカレー&バー",
+    "url": "https://kawayu-onsen-unite.vercel.app/"
+  },
+  {
+    "id": "fujinka-salon-repos",
+    "companyName": "婦人科サロンrepos",
+    "category": "婦人科サロン",
+    "url": "https://fujinka-salon-repos.vercel.app/"
+  },
+  {
+    "id": "okhotsk-seafood-market",
+    "companyName": "オホーツク海産マーケット",
+    "category": "海産販売",
+    "url": "https://okhotsk-seafood-market.vercel.app/"
   }
 ]
